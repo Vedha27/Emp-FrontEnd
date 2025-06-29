@@ -181,3 +181,43 @@ h2 {
     align-items: center;
   }
 }
+@media (max-width: 768px) {
+  .top-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flip-card {
+    width: 90%; /* Makes cards responsive */
+    height: auto;
+  }
+
+  .flip-card-inner {
+    height: 260px;
+  }
+
+  .clients-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .client-card {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    font-size: 18px;
+    padding: 16px;
+  }
+}
